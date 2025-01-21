@@ -21,4 +21,4 @@ function fetchNews(url,res){
             });
         }
     })
-}
+} 
