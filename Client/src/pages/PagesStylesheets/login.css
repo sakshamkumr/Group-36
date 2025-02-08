@@ -1,0 +1,99 @@
+/* Light and Dark Theme Containers */
+.light-container, .dark-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Background Colors */
+.light-container {
+    background-color: #f4f4f4;
+}
+
+.dark-container {
+    background-color: #1e1e1e;
+}
+
+/* Light and Dark Cards */
+.light-card, .dark-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.light-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-card {
+    background-color: #2a2a2a;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Titles */
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Inputs */
+.light-input, .dark-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.light-input {
+    border: 1px solid #ddd;
+}
+
+.dark-input {
+    border: 1px solid #444;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Buttons */
+.button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Links */
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
