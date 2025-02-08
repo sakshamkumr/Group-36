@@ -1,18 +1,58 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
-*{
+/* Universal Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: bisque; */
 }
-.container{
-    width: 100vw;
-    min-height: 100vh;
-    transition: 0.5s;
+
+/* Apply full width and height to body and html */
+html, body {
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
 }
-.container.dark{
-    background: #222;
+
+/* Light Theme */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.container.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Ensure no gaps around the page */
+
+header, footer, main {
+    width: 100%;
+}
+
+button, a {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header, footer, main {
+    background-color: inherit;
+    color: inherit;
 }
