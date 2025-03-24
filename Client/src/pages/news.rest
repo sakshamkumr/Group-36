@@ -1,0 +1,1 @@
+GET https://newsapi.org/v2/top-headlines?language=en&apiKey=1cf8acda848241eea2cf627427f7e795

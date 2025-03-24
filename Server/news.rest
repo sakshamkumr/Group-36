@@ -1,0 +1,22 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "Cosmos",
+    "email": "thecosmos13.8@gmail.com",
+    "password": "thecosmos13.8"
+}
+
+###
+
+GET http://localhost:3000/check-email?email=thecosmos13.8@gmail.com
+
+###
+
+POST http://localhost:3000/verify
+Content-Type: application/json
+
+{
+    "email": "thecosmos13.8@gmail.com",
+    "password": "thecosmos13.8"
+}
